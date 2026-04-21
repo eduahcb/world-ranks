@@ -1,0 +1,72 @@
+main {
+  padding: 0;
+  position: relative;
+  margin: -60px auto 0 auto;
+  background-color: var(--background);
+  max-width: 800px;
+  border-radius: 8px;
+  border: 1px solid var(--shadow);
+}
+
+section {
+  margin-bottom: 0px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px;
+  padding: 1em;
+}
+
+.details-flag {
+  position: relative;
+  top: -50px;
+}
+
+.flag {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.details-country {
+  margin-bottom: 3em;
+}
+
+.country-name {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.card {
+  display: flex;
+  padding: 1em;
+  background-color: var(--shadow);
+  align-items: center;
+  gap: 12px;
+  border-radius: 10px;
+}
+
+.card__title {
+  font-size: 1.1rem;
+}
+
+.card__divisor {
+  height: 1.5em;
+  border-left: 2px solid var(--border);
+}
+
+.details-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.snack {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 1.5em;
+  border: 1px solid var(--shadow);
+}

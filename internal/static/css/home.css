@@ -1,0 +1,43 @@
+main {
+  position: relative;
+  padding: 2em;
+  margin: -60px auto 0 auto;
+  max-width: 1444px;
+}
+
+.content {
+  background-color: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 2em;
+}
+
+.title {
+  font-size: 1.1em;
+  flex: 1;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  max-width: 300px;
+  font-size: .9rem;
+}
+
+.sort {
+  font-size: .9rem;
+  max-width: 250px;
+}
+
+.test {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.flag {
+  width: 16px;
+  height: 16px;
+}
