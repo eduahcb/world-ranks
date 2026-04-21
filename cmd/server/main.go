@@ -33,12 +33,14 @@ func main() {
 	port := os.Getenv("PORT")
 
 	if port == "" {
-		port = ":8080"
+		port = "8080"
 	}
+
+	addr := fmt.Sprintf(":%s", port)
 
 	fs := http.FileServer(http.Dir("internal/static"))
 	mux.Handle("GET /static/", http.StripPrefix("/static/", fs))
 
 	fmt.Printf("server is running on port: %s \n", port)
-	log.Fatal(http.ListenAndServe(port, mux))
+	log.Fatal(http.ListenAndServe(addr, mux))
 }
