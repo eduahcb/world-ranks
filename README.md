@@ -2,7 +2,7 @@
 
 A simple project to display and manage world rankings.
 
-This is an MVC project built too learn Go concepts.
+This is an MVC project built to learn Go concepts.
 
 ## Features
 
